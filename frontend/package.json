@@ -1,4 +1,4 @@
-"homepage": "https:// AD7777777777.github.io/ADA",
+"homepage": "https://AD7777777777.github.io/ADA",
 "scripts": {
   "predeploy": "npm run build",
   "deploy": "gh-pages -d build",
