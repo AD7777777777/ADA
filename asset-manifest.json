@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/ADA/static/css/main.e6c13ad2.css",
-    "main.js": "/ADA/static/js/main.8347d50e.js",
-    "static/js/453.d47e3b9e.chunk.js": "/ADA/static/js/453.d47e3b9e.chunk.js",
+    "main.js": "/ADA/static/js/main.4804fe7e.js",
+    "static/js/488.934eb1bd.chunk.js": "/ADA/static/js/488.934eb1bd.chunk.js",
     "index.html": "/ADA/index.html",
     "main.e6c13ad2.css.map": "/ADA/static/css/main.e6c13ad2.css.map",
-    "main.8347d50e.js.map": "/ADA/static/js/main.8347d50e.js.map",
-    "453.d47e3b9e.chunk.js.map": "/ADA/static/js/453.d47e3b9e.chunk.js.map"
+    "main.4804fe7e.js.map": "/ADA/static/js/main.4804fe7e.js.map",
+    "488.934eb1bd.chunk.js.map": "/ADA/static/js/488.934eb1bd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e6c13ad2.css",
-    "static/js/main.8347d50e.js"
+    "static/js/main.4804fe7e.js"
   ]
 }
