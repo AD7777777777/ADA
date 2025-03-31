@@ -1,38 +1,132 @@
-.App {
+/* Reset default styles */
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #ffffff;
+  font-family: 'Assistant', sans-serif;
+  color: #333;
+}
+
+/* Flat white container */
+.container {
+  max-width: 600px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background-color: #ffffff;
+  border-radius: 0;
+  box-shadow: none;
+  box-sizing: border-box;
+}
+
+/* Header */
+h1 {
+  font-size: 2rem;
+  color: #111;
+  margin-bottom: 1.5rem;
   text-align: center;
+  font-weight: 600;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* Input styles */
+select,
+input,
+textarea {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1rem;
+  box-sizing: border-box;
+  background-color: #ffffff;
+  font-family: inherit;
+  color: #000;
+  -webkit-text-fill-color: #000;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+/* Button styles */
+button {
+  background-color: #fd7bbb; /* pink */
   color: white;
+  border: none;
+  padding: 14px 20px;
+  border-radius: 4px;
+  font-size: 1rem;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  cursor: pointer;
+  width: 100%;
+  margin-top: 1rem;
+  transition: background-color 0.2s ease;
+  font-family: inherit;
 }
 
-.App-link {
-  color: #61dafb;
+button:hover {
+  background-color: #e965a6; /* darker pink */
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+/* Paragraph */
+p {
+  font-size: 1rem;
+  color: #444;
+  margin: 1rem 0;
+  font-family: inherit;
+}
+
+/* Diagnosis box */
+.diagnosis-box {
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  padding: 1.5rem;
+  margin-top: 2rem;
+  text-align: left;
+  white-space: pre-wrap;
+  line-height: 1.5;
+  font-family: inherit;
+  border-radius: 4px;
+}
+
+/* Headings inside diagnosis */
+.diagnosis-box h4 {
+  font-size: 1.1rem;
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+  color: #2d4836;
+}
+
+/* Bullet points inside diagnosis */
+.diagnosis-box li {
+  margin-left: 1.5rem;
+  margin-bottom: 0.5rem;
+  line-height: 1.6;
+  list-style-type: disc;
+  color: #444;
+}
+
+/* Responsive Design */
+@media (max-width: 480px) {
+  .container {
+    padding: 1rem;
+    margin: 1rem;
   }
-  to {
-    transform: rotate(360deg);
+
+  h1 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+
+  input,
+  select,
+  textarea,
+  button {
+    font-size: 1rem;
+    color: #000;
+    -webkit-text-fill-color: #000;
+    font-family: 'Assistant', sans-serif;
+  }
+
+  .diagnosis-box {
+    padding: 1rem;
+    font-size: 0.95rem;
   }
 }

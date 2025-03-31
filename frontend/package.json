@@ -1,7 +1,21 @@
-"homepage": "https://ad7777777777.github.io/ADA/",
-"scripts": {
-  "predeploy": "npm run build",
-  "deploy": "gh-pages -d build",
-  "start": "react-scripts start",
-  "build": "react-scripts build"
+{
+  "name": "animal-diagnosis-app",
+  "version": "1.0.0",
+  "homepage": "https://ad7777777777.github.io/ADA",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "dependencies": {
+    "axios": "^1.x",
+    "react": "^18.x",
+    "react-dom": "^18.x",
+    "react-scripts": "5.x",
+    "web-vitals": "^4.2.4"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.x"
+  }
 }
