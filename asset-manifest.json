@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/ADA/static/css/main.132c8d7c.css",
-    "main.js": "/ADA/static/js/main.aa257797.js",
+    "main.js": "/ADA/static/js/main.bef9f00c.js",
     "static/js/488.934eb1bd.chunk.js": "/ADA/static/js/488.934eb1bd.chunk.js",
     "static/media/Peteat_Loader_01.gif": "/ADA/static/media/Peteat_Loader_01.19dda0480c0ac62ac568.gif",
     "index.html": "/ADA/index.html",
     "main.132c8d7c.css.map": "/ADA/static/css/main.132c8d7c.css.map",
-    "main.aa257797.js.map": "/ADA/static/js/main.aa257797.js.map",
+    "main.bef9f00c.js.map": "/ADA/static/js/main.bef9f00c.js.map",
     "488.934eb1bd.chunk.js.map": "/ADA/static/js/488.934eb1bd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.132c8d7c.css",
-    "static/js/main.aa257797.js"
+    "static/js/main.bef9f00c.js"
   ]
 }
